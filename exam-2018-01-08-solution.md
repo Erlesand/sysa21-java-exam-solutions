@@ -3,7 +3,7 @@
 ## Uppgift 1 (20p)
 Vi har följande kod:
 
-img[]()
+![](images/2018-01-08&#32;-&#32;Code&#32;1.png)
 
 Vad skrivs ut när följande kod utförs?
 Om inget skrivs ut, skriv ***inget***
@@ -149,7 +149,6 @@ publika åtkomstmetoder.
     public class Projekt {
         private String namn;
         private double budget;
-        private Dotterbolag dotterbolag;
 
         public String getNamn() {
             return this.namn; 
@@ -165,15 +164,6 @@ publika åtkomstmetoder.
 
         public void setBudget(double budget) {
             this.budget = budget;
-        }
-
-        public Dotterbolag getDotterbolag() {
-            return this.dotterbolag;
-        }
-
-        public void setDotterbolag(Dotterbolag dotterbolag)
-        {
-            this.dotterbolag = dotterbolag; 
         }
     }
     ```
