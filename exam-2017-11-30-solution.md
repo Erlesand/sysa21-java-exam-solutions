@@ -118,6 +118,14 @@ publika åtkomstmetoder.
     public class Register {
         private HashMap<String, Fordon> fordon = new HashMap<String, Fordon>(); 
 
+        public void setFordon(HashMap<String, Fordon> fordon) {
+            this.fordon = fordon;
+        }
+
+        public HashMap<String, Fordon> getFordon() {
+            return this.fordon;
+        }
+
         public void laggTillFordon(Fordon fordon) {
             this.fordon.put(fordon.getRegNr(), fordon);
         }
