@@ -75,7 +75,6 @@ publika åtkomstmetoder.
     public class Dotterbolag {
         private String nr;
         private String namn;
-        private OOAB moderbolag;
         private HashMap<String, Projekt> projekt = new HashMap<String, Projekt>();
         private HashMap<String, Anstalld> anstallda = new HashMap<String, Anstalld>();
 
@@ -93,14 +92,6 @@ publika åtkomstmetoder.
 
         public void setNamn(String namn) {
             this.namn = namn; 
-        }
-
-        public OOAB getModerbolag() {
-            return this.moderbolag;
-        }
-
-        public void setModerbolag(OOAB moderbolag) {
-            this.moderbolag = moderbolag;
         }
 
          public HashMap<String, Projekt> getProjekt() {
