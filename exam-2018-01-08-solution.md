@@ -19,14 +19,14 @@ fido.setName("Fido");
 |----|-------------------------------------|----------------------|:--------:|
 |  1 | fido.talk()                         | I can not talk.      | 17       |
 |  2 | birdy.talk();                       | I can not talk.      | 17       |
-|  3 | fido.beQuiet()                      | Inget                | -        |
+|  3 | fido.beQuiet()                      | I won't bark much    | 58       |
 |  4 | fido.talk()                         | Woof                 | 43       |
 |  5 | birdy.talk()                        | I can not talk.      | 17       |
 |  6 | birdy.learn("Birdy want a cracker") | Birdy want a cracker | 13       |
 |  7 | birdy.talk()                        | Birdy want a cracker | 13       |
 |  8 | fido.setName("Doggy")               | Inget                | -        |
 |  9 | birdy.whatsYourName()               | My name is Birdy     | 22       |
-| 10 | fido.whatsYourName()                | My name is Fido      | 22       |
+| 10 | fido.whatsYourName()                | My name is Doggy     | 22       |
  
  # Uppgift 2 (80p)
 
