@@ -62,6 +62,8 @@ public class Tenant {
 
 ```java
 public class Mooring {
+    import java.util.ArrayList;
+
     private int nbr;
     private double rent;
     private String type;
@@ -112,6 +114,8 @@ public class Mooring {
 
 ```java
 public class Marina {
+    import java.util.ArrayList;
+    
     private String address;
     private String name;
     private ArrayList<Mooring> moorings = new ArrayList<Mooring>();
