@@ -62,7 +62,8 @@ Skriv/implementera metoden equals, om name och price är unika tillsammans. DVS.
 
 ```java
 public boolean equals(Object t) {
-    // ...
+    return this.name.equals(((Product) t).name) 
+        && this.price.equals(((Product) t).price); 
 }
 ```
 
