@@ -66,6 +66,11 @@ public class Test {
 
 Vad skrivs ut när följande kod (klassen Test) utförs?
 
+```java
+Namn: K1 ålder: 6 
+Namn: K2 ålder: 9, Tal: 12
+```
+
 # Uppgift 3 (70p)
 
 ![](images/2016-12-05&#32;-&#32;Figure&#32;3.1.png)
